@@ -1,0 +1,55 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+.header {
+  background-image: url("../imgs/main.png");
+  max-width: 100%;
+  
+    &__logo {
+      font-family: Ribeye;
+      font-size: 2.4rem;
+      line-height: 150%;
+      letter-spacing: 0.06em;
+      color: #ffffff;
+      margin: 4.2rem 0 0 0;
+      padding: 0 21.1rem 0 0;
+    }
+  
+  &__nav {
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: #ffffff;
+
+    a {
+      padding: 1.4rem 5rem;
+      color: #ffffff;
+      z-index: 1;
+    }
+
+    a:hover {
+      font-weight: bold;
+      font-size: 1.8rem;
+      line-height: 150%;
+      color: #ffffff;
+    }
+    ul {
+      padding: 0;
+      margin: 0 auto;
+      height: 40px;
+    }
+
+    li {
+      display: inline;
+    }
+    .button{
+        display: inline-block;
+        max-width: 16.3rem;
+        max-height: 5.1rem;
+        background: #C9453B;
+        border-radius: 5px;
+    }
+  }
+}

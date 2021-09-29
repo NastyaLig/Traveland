@@ -1,0 +1,23 @@
+// Помощники
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+//Общее
+@import 'main/stylesheet';// шрифты
+@import 'main/reset'; // сброс стилей для кроссбраузерности
+@import 'main/common'; // общие стили
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+// дальше можно писать все стили сайта в этот файл, или писать их в компонентах
+@import 'components/header';
